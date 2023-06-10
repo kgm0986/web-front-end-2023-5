@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p{
+  width: 100px;
+  border: 1px solid #222222;
+
+
+}
+#id1{
+  position: static;
+
+}
+#id2{
+  position: relative;
+}
+#id3{
+  position: relative;
+  /* 왼쪽에서 100px 덜어지게 표지 */
+  left: 100px;
+  /* 위쪽에서 -50ㅔㅌ 떨어지게 표시 */
+  top:-50px;
+}
+#id4{
+  position: fixed;
+  /* 오른쪽애소 30px떨어지게 포시 */
+  right: 30px;
+  /* 위쪽에소 30px떨어지게 표시 */
+  top:30px;
+}

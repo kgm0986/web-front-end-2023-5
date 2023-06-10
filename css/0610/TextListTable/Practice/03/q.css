@@ -1,0 +1,42 @@
+section {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.0em;
+}
+
+p {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+}
+
+footer>p {
+  color: #fff;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 50px;
+}
+#qwe{
+  background-color: black;
+  color: white;
+}
+.at1,.at2,.at3,.at4{
+  border: 1px solid black;
+  margin: 10px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  
+}

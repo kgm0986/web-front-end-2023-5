@@ -1,0 +1,22 @@
+div{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+  border-style: solid;
+}
+#box1{
+  border-width: 2px;
+}
+#box2{
+  /* border 스타일 적용시 속성삾울 2개 지정할 경우 첫2번쟤 값은 위아래 top bottom 테두리값은 right left */
+  border-width: thick thin;
+}
+#box3{
+  /* border스타일 적용시 속성겂웆ㄴ 3개 정할경우 top right bottm  속성섭욿 지정 */
+  border-width: thick thin thin;
+
+}
+#box4{
+  border-width: 10px 8px 7px 5px;
+}
