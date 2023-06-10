@@ -1,0 +1,26 @@
+#a{
+  background-color: black;
+  color: white;
+  padding: 5px;
+
+}
+#b{
+  border: 1px solid gray;
+}
+p{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 2em;
+}
+h2{
+  font-size: 1.5em;
+  color: #ff0000;
+  text-align: center;
+}
+#l{
+  color: blue;
+  accent-color: blue;
+}
+#s{
+  font-size: small;
+}

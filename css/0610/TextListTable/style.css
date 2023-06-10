@@ -1,0 +1,51 @@
+p {
+  /* 폰트사이즈 설정-키워드 */
+  font-size: xx-small;
+}
+#가{
+  /* 폰트사이즈 설정-키워드 */
+  font-size: xx-small;
+  color: #ff0000;
+  text-align: start;
+}
+#나{
+  /* 폰트사이즈 설정-키워드 */
+  font-size: medium;
+  color: aqua;
+  text-align: end;
+}
+#다{
+  /* 폰트사이즈 설정-키워드 */
+  font-size: xx-large;
+  color: rgb(255, 0, 255);
+  text-align: center;
+}
+#라{
+  /* 폰트사이즈 설정-키워드 */
+  font-size: 2em;
+  color: rgba(0,0,255,0.5);
+  text-align: justify;
+}
+#마{
+  /* 폰트사이즈 설정-키워드 */
+  font-size: 16px;
+
+  font-style: italic;
+  font-style: normal;
+}
+#라의상위요소{
+  font-size: 20px;
+
+}
+#바{
+  font-size: 16px;
+  font-weight: bolder;
+}
+#사{
+  font-size: 16px;
+  font-weight: 100;
+}
+#아{
+  text-align: justify;
+  font-size: 16px;
+}
