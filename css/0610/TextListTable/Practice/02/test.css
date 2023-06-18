@@ -23,4 +23,9 @@ h2{
 }
 #s{
   font-size: small;
+  justify-content: center;
+justify-content: space-between;  
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  align-items: end;
 }
