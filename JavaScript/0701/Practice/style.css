@@ -1,0 +1,22 @@
+#todo-app {
+  width: 200px;
+  margin: auto;
+}
+
+#add-btn {
+  margin-top: 10px;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

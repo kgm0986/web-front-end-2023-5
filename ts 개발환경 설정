@@ -1,0 +1,13 @@
+// ts 개발환경설정
+//노드 js설치 
+//공식 웹사이트 (구글에서 node .js검색)를 총해 설치
+LTS 버전 설치 권장
+//설치 확인 명령어
+node -v
+
+2.npm
+//mode.js의 관리 도구 
+//node.js 설치시 np자동 설치
+npm -v
+//npm 기본명령어 
+npm init : 새로운 node.js 프로잭트를 시작하고 기본갑으로 

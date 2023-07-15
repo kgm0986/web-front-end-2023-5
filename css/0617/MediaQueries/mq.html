@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리 이론</title>
+    <!-- 평소에 쓰던 css링크와 다름 -->
+    <link rel="stylesheet" media="print" href="mq.css">
+    <style>
+        @import url("mq.css") only screen and (min-width: 321px) and (max-width: 768px);/*only는 무슨역할을 하는가?@import?모듈불러오는거아닌가? 알수없음 @import url안에 들어간 css 파일을 조건이 중족될때 적용된다*/
+    </style>
+    
+    <style media="<조건>">
+        /* 스타일 규칙 */
+    </style>
+    <style media="screen" and (max-width: 320px)>/* 이것도 적용이 되는가? 처음보는 형테 style 태그 안에 media 조건을 넣어서 적용하는 방식 똑같이 작동함*/ 
+        body {
+            background-color: orange;
+        }
+    </style>
+    
+    <style>
+        @media screen and (max-width: 320px) {
+            body {
+                background-color: orange;
+            }
+        }
+        @media print and (max-width: 160px) {/*왜 프린트로 되어있는거지?*/
+            body {
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 미디어 쿼리의 기본형 
+        @media [only | not] 미디어 유형 [and 조건] * [and 조건] 
+        only: 미디어 쿼리를 지정하지 않는 웹 브라우저에서는 미디어 쿼리를 무시하고 실행하지 않습니다.
+        not: 다음에 지정하는 미디어 유형을 제외합니다. /이럴거면 걍안쓰면 되는거아닌가?
+        and: 조건을 여러 개 연결해서 추가할 수 있습니다.
+    -->
+    <style>
+        @media screen and (min-width: 768px) and (max-width: 1439px) {
+            /* CSS스타일을 적용 */
+            /* 
+            all: 모든 미디어 유형에서 사용
+            print: 인쇄 장치에서 사용
+            screen: 컴퓨터 스크린에서 사용 (스마트폰의 스크린도 포함)
+            tv: 음성과 영상이 동시에 출력되는 tv에서 사용 
+            */
+        }
+        
+        @media print and (min-width: 1440px) {
+            /* width, height / device-width,height : 기본 너비와 높이
+            min-width, min-height / min-device-width,height : 최소 너비와 최소 높이
+            max-width, max-height / max-device-width,height : 최대 너비와 최대 높이 */
+        }
+        
+        @media screen and (min-device-width: 390px) and (min-device-height: 844px) {
+            /* 선택자 */
+        }
+        
+        @media screen and (min-device-width: 390px) and (orientation: landscape) {
+            /* 모바일을 가로로 배치할 경우 */
+            
+            /* orientation: portrait; -> 모바일을 세로로 배치할 경우 */
+        }
+        
+        /* 스마트폰 
+            가로(너비): 480px
+            세로(높이): 320px
+            
+            태블릿 - 세로 크기가 768px 이상이면 태블릿으로 지정합니다.
+                    - 가로 크기는 데스크톱과 똑같이 1024px이상으로 지정합니다.
+                    
+            데스크톱 - 가로크기가 1024px 이상이면 데스크톱으로 지정합니다.
+            
+        */
+    </style>
+</body>
+</html>

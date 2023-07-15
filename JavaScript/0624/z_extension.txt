@@ -1,0 +1,17 @@
+// VSCode 확장 기능 //
+
+Korean Language Pack for VSCode
+Live Server
+
+Better Comments
+Color Highlight
+indent-rainbow
+Material Icon Theme
+vscode-icons
+Prettier
+
+상단메뉴에 파일 > 아래에 자동저장 클릭
+
+설정 (단축키 ctrl + ,) 
+1. Editor: Word Wrap : on (줄 바꿈 여부를 제어)
+2. tab size : 2
