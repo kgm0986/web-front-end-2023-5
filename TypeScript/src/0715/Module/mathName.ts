@@ -8,3 +8,4 @@ export namespace MathLib {
     return x-y;
   }
 }
+

@@ -1,0 +1,12 @@
+form {
+  margin-bottom: 10px;
+}
+#todo-list{
+  padding: 0;
+}
+.todo-item{
+  list-style: none;
+  padding: 10;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}

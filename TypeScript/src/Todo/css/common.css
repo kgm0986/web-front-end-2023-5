@@ -1,0 +1,64 @@
+/* 스크롤바, 컨테이너, 입력 필드, 버튼 스타일 설정 */
+
+/*! 웹킷 브라우저(ex. 크롬, 사파리)에서 모든 요소의 스크롤바 너비를 5px로 지정  */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*! 웹킷 브라우저에서 스크롤바의 thumb(움직이는 부분)의 배경색과 모서리 둥글기를 지정  */
+*::-webkit-scrollbar-thumb {
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+/* 중앙에 위치한 컨테이너의 위치, 마진, 테두리 등을 지정 */
+.container {
+  position: relative;
+  margin: 50px auto;
+  border: 2px solid #dbdbdb;
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* input & textarea 스타일 지정 */
+input, textarea {
+  border: none;
+  /* 포커스 시 나타나는 테두리 */
+  outline: none;
+  padding: 5px;
+}
+
+/* input & textarea 포커스(선택) 시 배경색 변경 지정 */
+input:focus, textarea:focus {
+  background-color: #fafafa;
+}
+
+/*! 웹킷 브라우저에서 input 필드의 자동 완성 기능 사용 시 배경색 변경 효과 & 글자색 지정  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #121212 !important;
+}
+
+/* 버튼의 테두리, 패딩, 변경색 등의 스타일을 지정 */
+button {
+  border: 1px solic #dbdbdb;
+  padding: 5px 10px;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 마우스 호버시 배경색 변경 지정 */
+button:hover {
+  background-color: #fafafa;
+}
+
+/* 버튼을 클릭하는 동안(활성 상태) 배경색을 변경 지정 */
+button:active {
+  background-color: #f0f0f0;
+}

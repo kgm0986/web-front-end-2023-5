@@ -3,7 +3,7 @@ type Person={
   name: string;
   age: number;
 }
-type Details  {
+type Details = {
   status: Status;
   subject: string;
 }
@@ -20,3 +20,31 @@ let seungah : SchoolPerson={
   status:'teacher',
   subject: 'typescript'
 };
+
+
+
+
+type Operation = "add"|"subtract"|"multiply"|"divide";
+function calculate(Operation:string,a:number,b:number):number{
+  switch(Operation) {
+    case 'add':
+      console.log(a+b);
+      return a+b;
+      break;
+    case 'subtract':
+      console.log(a-b);
+      return a-b;
+      break;
+    case 'multiply':
+      console.log(a*b);
+      return a*b;
+      break;
+    case 'divide':
+      console.log(a/b);
+      return a/b;
+      break;
+  }
+  return 0;
+}
+calculate("add",4,2);
+
